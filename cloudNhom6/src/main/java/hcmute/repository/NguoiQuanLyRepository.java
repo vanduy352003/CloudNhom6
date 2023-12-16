@@ -1,5 +1,9 @@
 package hcmute.repository;
 
-public interface NguoiQuanLyRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import hcmute.entity.NguoiQuanLyEntity;
+
+public interface NguoiQuanLyRepository extends JpaRepository<NguoiQuanLyEntity, String>{
 
 }

@@ -1,5 +1,9 @@
 package hcmute.repository;
 
-public interface YKienDongGopRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import hcmute.entity.YKienDongGopEntity;
+
+public interface YKienDongGopRepository extends JpaRepository<YKienDongGopEntity, String>{
 
 }

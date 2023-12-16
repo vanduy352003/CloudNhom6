@@ -1,5 +1,9 @@
 package hcmute.repository;
 
-public interface DonHangRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import hcmute.entity.DonHangEntity;
+
+public interface DonHangRepository extends JpaRepository<DonHangEntity, String>{
 
 }

@@ -1,5 +1,9 @@
 package hcmute.repository;
 
-public interface KhachHangRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import hcmute.entity.KhachHangEntity;
+
+public interface KhachHangRepository extends JpaRepository<KhachHangEntity, String> {
 
 }

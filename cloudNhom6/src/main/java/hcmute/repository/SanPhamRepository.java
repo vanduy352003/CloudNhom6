@@ -1,5 +1,9 @@
 package hcmute.repository;
 
-public interface SanPhamRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import hcmute.entity.SanPhamEntity;
+
+public interface SanPhamRepository extends JpaRepository<SanPhamEntity, String>{
 
 }
